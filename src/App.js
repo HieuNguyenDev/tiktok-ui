@@ -1,11 +1,9 @@
-import Button from "~/components/Button";
-
 function App() {
-  return (
-    <div className="App">
-      <Button />
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>React App</h1>
+        </div>
+    );
 }
 
 export default App;

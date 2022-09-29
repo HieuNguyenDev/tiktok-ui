@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 
 import images from '~/assets/images';
 import AccountItem from '~/components/AccountItem';
+import Button from '~/components/Button';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import styles from './Header.module.scss';
 
@@ -67,7 +68,9 @@ function Header() {
                     </div>
                 </Tippy>
 
-                <div className={cx('action')}></div>
+                <div className={cx('action')}>
+                    <Button outline>Log in</Button>
+                </div>
             </div>
         </header>
     );
